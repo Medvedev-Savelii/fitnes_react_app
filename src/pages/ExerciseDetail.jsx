@@ -49,8 +49,8 @@ const ExerciseDetail = () => {
       }
     }}>
       <Detail exerciseDetail={exerciseDetail}/>
-      {/* <ExerciseVideos exerciseVideos={exerciseVideos} name={exerciseDetail.name}/> */}
-      {/* <SimilarExercises targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises}/> */}
+      <ExerciseVideos exerciseVideos={exerciseVideos} name={exerciseDetail.name}/>
+      <SimilarExercises targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises}/>
     </Box>
   );
 };
